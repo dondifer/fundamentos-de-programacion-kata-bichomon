@@ -4,7 +4,7 @@ document.querySelector("#infocard-list").style.background =
 
 console.log(document.location.href);
 console.log(document.location.host);
-const img = document.getElementsByTagName("img");
+const img = document.querySelectorAll(".img-fixed");
 
 console.log(img);
 const arr = [...img];
